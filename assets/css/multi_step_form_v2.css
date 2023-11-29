@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.step[data-step]:not([data-step="1"]) {
+  display: none;
+}
+
+.card {
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.progress {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e0e0e0;
+  transition: background-color 0.3s;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #2705a3;
+  --bs-btn-border-color: #2705a3;
+  --bs-btn-focus-shadow-rgb: 39,5,163;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #82FF57;
+  --bs-btn-hover-border-color: #82FF57;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #2705a3;
+  --bs-btn-active-border-color: #2705a3;
+  --bs-btn-disabled-color: #2705a3;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #2705a3;
+}
+
